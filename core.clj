@@ -13,8 +13,8 @@
       (. submit-button
         (addActionListener
            (proxy [ActionListener] []
-                (actionPerformed [evt]                    
-                  (JOptionPane/showMessageDialog frame submit-message)
+                (actionPerformed [evt]
+                   (JOptionPane/showMessageDialog frame (str submit-message " " (.getText first-name-text)))
                 )
             )
         )
