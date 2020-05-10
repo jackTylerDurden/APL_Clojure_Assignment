@@ -1,3 +1,6 @@
+# Name - Tanmay Deshpande
+# REDID - 824646024
+# Subject - Advanced Programming Languages
 from tkinter import *
 from tkinter import ttk
 
